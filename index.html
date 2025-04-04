@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .top-header {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            background: #007BFF;
+            font-size: 1.2rem;
+        }
+        .top-header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header {
+            font-size: 2rem;
+            padding: 20px;
+            background: #007BFF;
+            color: white;
+        }
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-box {
+            border: 2px solid #007BFF;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            background: white;
+            text-align: center;
+        }
+        .product-box img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .buy-btn {
+            background: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .buy-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<header>AC Store</header>
+    <div class="top-header">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    
+
+    <div id="about">
+        <h2>About Us</h2>
+        <p>We offer the best air conditioners to keep your home cool and comfortable.</p>
+    </div>
+
+    <div id="products">
+        <h2>Our Products</h2>
+        <div class="products-container">
+            <div class="product-box">
+                <img src="https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-128235.jpg?ga=GA1.1.715169509.1743523151&semt=ais_hybrid&w=740" alt="AC Model 1">
+                <h3>LG 1.5 Ton Split AC</h3>
+                <p>Energy-efficient and powerful cooling with dual inverter technology.</p>
+                <p class="price">₹40,999</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-box">
+                <img src="https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-142861.jpg?ga=GA1.1.715169509.1743523151&semt=ais_hybrid&w=740" alt="AC Model 2">
+                <h3>Samsung 1.5 Ton Window AC</h3>
+                <p>Compact design with fast cooling and air purification.</p>
+                <p class="price">₹35,499</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-box">
+                <img src="https://img.freepik.com/free-vector/air-conditioner-with-flows-cold-air-wall-realistic-vector-illustration_1284-76980.jpg?ga=GA1.1.715169509.1743523151&semt=ais_hybrid&w=740" alt="AC Model 3">
+                <h3>Daikin 1.8 Ton Inverter AC</h3>
+                <p>Advanced inverter technology for high energy savings.</p>
+                <p class="price">₹45,999</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@acstore.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Follow us on social media for updates and offers!</p>
+    </div>
+</body>
+</html>
